@@ -1,0 +1,29 @@
+.alert-list {
+  margin-top: 20px;
+}
+
+.alert-row.critical {
+  background-color: #fee !important;
+}
+
+.alert-row.high {
+  background-color: #fef3cd !important;
+}
+
+.alert-row.medium {
+  background-color: #e7f3ff !important;
+}
+
+.alert-row.low {
+  background-color: #e8f5e9 !important;
+}
+
+.table td:last-child {
+  display: flex;
+  gap: 5px;
+}
+
+.table button {
+  padding: 5px 10px;
+  font-size: 12px;
+}
